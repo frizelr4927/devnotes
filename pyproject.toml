@@ -1,0 +1,52 @@
+[tool.briefcase]
+project_name = "DevNotes"
+bundle = "dev.kabeeki"
+version = "0.0.1"
+url = "https://kabeeki.dev/devnotes"
+license = "GNU General Public License v3 or later (GPLv3+)"
+author = 'Kabeeki'
+author_email = "kabeeki@kabeeki.dev"
+
+[tool.briefcase.app.devnotes]
+formal_name = "DevNotes"
+description = "Simple, out of the way, developer-friendly notes tool."
+icon = "src/devnotes/resources/devnotes"
+sources = ['src/devnotes']
+requires = [
+]
+
+
+[tool.briefcase.app.devnotes.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev34',
+    'std-nslog~=1.0.0'
+]
+
+[tool.briefcase.app.devnotes.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev34',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.devnotes.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev34',
+]
+
+# Mobile deployments
+[tool.briefcase.app.devnotes.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev34',
+    'std-nslog~=1.0.0'
+]
+
+[tool.briefcase.app.devnotes.android]
+requires = [
+    'toga-android>=0.3.0.dev34'
+]

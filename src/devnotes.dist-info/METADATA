@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.8
+Name: devnotes
+Formal-Name: DevNotes
+App-ID: dev.kabeeki.devnotes
+Version: 0.0.1
+Home-page: https://kabeeki.dev/devnotes
+Author: Kabeeki
+Author-email: kabeeki@kabeeki.dev
+Summary: Simple, out of the way, developer-friendly notes tool.
