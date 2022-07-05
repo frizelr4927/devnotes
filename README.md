@@ -39,7 +39,7 @@
 - __Sync:__ Able to `sync` across platforms
 
 ## Philosophy
-I heavily disliked most notes applications, they often lacked a sync between computers or were to bloated. I wanted a new notes program that just takes notes, not a gazillion other features that I won't use. So I made this.
+I heavily disliked most notes applications, they often lacked a sync between computers or were too bloated. I wanted a new notes program that just takes notes, not a gazillion other features that I won't use. So I made this.
 
 
 ## Installation
